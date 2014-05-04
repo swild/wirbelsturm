@@ -1335,18 +1335,25 @@ See also our [NOTICE](NOTICE) file.
 
 # Ubuntu installation 13.10
 
-versions from ubuntu repro dosn' work, so you must do the following by hand:
-
-* \curl -sSL https://get.rvm.io | bash
-* select version /usr/bin/ruby1.9.1: sudo update-alternatives --config ruby
-* sudo dpkg -i ~/vagrant_1.5.4_x86_64.deb 
-* sudo apt-get install ruby-dev
-* sudo apt-get install rubygems
-* sudo gem install librarian-puppet (v0.9.9)
+versions from ubuntu repro dosn' work, so you must do the following by hand (by it is not complete):
 
 ## References
 * https://github.com/purple52/librarian-puppet-vagrant/issues/2
 * https://github.com/rodjek/librarian-puppet/issues/70
+
+## Installation
+
+```shell
+$\curl -sSL https://get.rvm.io | bash
+```
+select version /usr/bin/ruby1.9.1: 
+```shellsudo update-alternatives --config ruby
+sudo dpkg -i ~/vagrant_1.5.4_x86_64.deb 
+sudo apt-get install ruby-dev
+sudo apt-get install rubygems
+sudo gem install librarian-puppet (v0.9.9)
+```
+
 
 
 
