@@ -1330,3 +1330,17 @@ to all of you!
   by Joe Miller.
 
 See also our [NOTICE](NOTICE) file.
+
+
+
+# Ubuntu installation
+
+\curl -sSL https://get.rvm.io | bash
+sudo apt-get install ruby-dev
+sudo gem install librarian-puppet
+
+
+
+
+
+
